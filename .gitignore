@@ -1,0 +1,14 @@
+.DS_Store
+.idea/.gitignore
+.idea/Enigma_v3.5.iml
+.idea/misc.xml
+.idea/modules.xml
+.idea/inspectionProfiles/profiles_settings.xml
+__pycache__/checksum.cpython-312.pyc
+__pycache__/decoding.cpython-312.pyc
+__pycache__/encoding.cpython-312.pyc
+__pycache__/enigma_common.cpython-312.pyc
+__pycache__/enigma_decode.cpython-312.pyc
+__pycache__/enigma_encode.cpython-312.pyc
+__pycache__/enigma_menu.cpython-312.pyc
+__pycache__/enigmapy_menu.cpython-312.pyc
