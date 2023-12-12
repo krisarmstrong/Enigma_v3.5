@@ -3,7 +3,7 @@
 This module contains global variables and lists used for encoding and decoding in the Enigma machine.
 """
 
-n0, n9, nA, nZ = b'09A'
+n0, n9, nA = b'09A'
 
 # Encode Enigma Rotors 10 & 26
 encode_rotor_10 = [5, 4, 1, 8, 7, 3, 0, 2, 9, 6]

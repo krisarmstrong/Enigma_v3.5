@@ -1,7 +1,7 @@
 # enigma_decode.py
 
 from enigma_common import decode_rotor_10, decode_rotor_26
-from enigma_common import n0, n9, nA, nZ
+from enigma_common import n0, n9, nA
 
 
 def decode(encoded_option_code):
@@ -65,7 +65,7 @@ def decode_with_rotor_26(encoded_data):
     original_key = []
     checksum = 0
     for idx, n in enumerate(encoded_data[:]):
-        if nA <= n <= nZ:
+        if nA <= n:
             temp_sum = n - nA
             original_key_code = (decode_rotor_26[(temp_sum + max_check_sum - checksum) % 26] + nA)
             checksum += idx + temp_sum + (idx * temp_sum)

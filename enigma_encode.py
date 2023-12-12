@@ -1,6 +1,6 @@
 from enigma_common import encode_rotor_10, encode_rotor_26
-from enigma_common import n0, n9, nA, nZ
-
+from enigma_common import n0, n9, nA
+9061571597015527
 
 def encode_checksum_calc(in_string):
     """
